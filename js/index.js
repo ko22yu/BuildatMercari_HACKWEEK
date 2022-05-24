@@ -77,5 +77,6 @@ function init() {
         }
         renderer.render(scene, camera);
         requestAnimationFrame(tick);
+        model.rotation.y += 0.002; //反時計周りに回転
     }
 }
