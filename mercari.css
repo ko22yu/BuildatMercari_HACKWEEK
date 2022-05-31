@@ -1,0 +1,48 @@
+.main{
+  margin-left: 50px;
+}
+#form2{
+position:relative;
+max-width:300px;
+margin-bottom:20px;
+}
+#sbox2{
+height:40px;
+width: 500px;
+padding:0 10px;
+position:absolute;
+left:0px;
+top:0;
+border-radius:2px;
+outline:0;
+background:#eee;
+}
+.flex{
+  display: flex;
+  margin-left: 50px;
+}
+body{
+  padding: 40px 0 0 30px;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: grey;
+  margin-right: 35px;
+}
