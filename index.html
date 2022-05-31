@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="index.css">
-    <title>テスト</title>
+    <title>商品詳細ページ</title>
     <!-- three.jsを読み込む -->
     <script src="https://unpkg.com/three@0.137.4/build/three.min.js"></script>
     <script src="https://unpkg.com/three@0.137.4/examples/js/loaders/GLTFLoader.js"></script>
@@ -12,8 +12,20 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-<div id="main_canvas">
+  <div class="flex">
+  <a href="./mercari.html"><img src="./photo/team5.png"width="150px"height="50px"></a>
+  <form id="form2" method="get">
+  <input id="sbox2"  id="s" name="s" type="text" placeholder="なにをお探しですか？"/>
+  </form>
+  </div>
+  <div id="main_canvas">
     <canvas id="canvas" width="100%" height="100%"></canvas>
-</div>
+    <h2>クマのぬいぐるみ</h2>
+    <div class="flex2">
+    <h2><font color="red">¥ 3000</font></h2>
+    <p>(税込) 送料込み</p>
+    <button type="button" class="reset button-shadow">購入手続きへ</button>
+    </div>
+  </div>
 </body>
 </html>

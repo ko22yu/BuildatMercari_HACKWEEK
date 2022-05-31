@@ -9,14 +9,75 @@ html {
 body {
     width : 100%;
     height : 100%;
-    margin: 0;
+    margin-left: 100px;
     border: 0;
-    padding: 0;
+    padding: 40px 0 0 0px;
     overflow: hidden;
 }
 #main_canvas {
-    width : 100%;
-    height : 100%;
+    width : 70%;
+    height : 70%;
     margin: 0;
     padding: 0;
+}
+.flex{
+  display: flex;
+}
+.flex2{
+  display: flex;
+  align-items: flex-end;
+}
+#form2{
+position:relative;
+max-width:300px;
+margin-bottom:20px;
+}
+#sbox2{
+height:40px;
+width: 500px;
+padding:0 10px;
+position:absolute;
+left:30px;
+top:0;
+border-radius:2px;
+outline:0;
+background:#eee;
+}
+.reset {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-shadow {
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ff0033;
+  color: #fff;
+  font-weight: bold;
+  padding: 13px 10px 10px;
+  border-radius: 5px;
+  border-bottom: 5px solid rgba(0,0,0,0.3);
+  &:hover {
+    animation: 1s flash;
+  }
+  &:active, &:focus {
+    border-bottom-width: 0;
+    margin-top: 5px;
+    background: #ff9300;
+  }
 }
